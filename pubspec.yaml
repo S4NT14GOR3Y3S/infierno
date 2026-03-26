@@ -1,0 +1,44 @@
+name: inferno_2d
+description: INFERNO 2D — Top-down shooter en Flutter/Dart puro con assets PNG.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sprites/player.png
+    - assets/sprites/wraith.png
+    - assets/sprites/crusher.png
+    - assets/sprites/specter.png
+    - assets/sprites/bullet_player.png
+    - assets/sprites/bullet_enemy.png
+    - assets/sprites/plasma.png
+    - assets/sprites/pickup_health.png
+    - assets/sprites/pickup_ammo.png
+    - assets/sprites/pickup_weapon.png
+    - assets/sprites/particles.png
+    - assets/tiles/wall.png
+    - assets/tiles/floor_dark.png
+    - assets/tiles/floor_mid.png
+    - assets/tiles/door.png
+    - assets/tiles/door_locked.png
+    - assets/tiles/exit.png
+    - assets/ui/hud_panel.png
+    - assets/ui/crosshair.png
+    - assets/ui/joystick_base.png
+    - assets/ui/joystick_knob.png
+    - assets/ui/fire_button.png
+    - assets/ui/fire_button_pressed.png
+    - assets/ui/weapon_button.png
